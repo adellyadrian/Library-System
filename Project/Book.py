@@ -44,3 +44,24 @@ class Book:
         if copy in self._copies:
             self.copies.remove(copy)
             self._available_copies.remove(copy)
+
+
+books = [
+    Book("The great Gatsby", "F. Scott Fitzgerald", 1925, 9780743273565, "Fiction", []),
+    Book("The Alchemist", "Paulo Coelho", 1988, 9780061122415, "Fiction", []),
+    Book("The Hobbit", "J.R.R. Tolkien", 1937, 9780345339683, "Fantasy", []),
+    Book("The Lord of the Rings", "J.R.R. Tolkien", 1954, 9780618640157, "Fantasy", []),
+    Book("Don Quixote", "Miguel de Cervantes", 1605, 9780936388878, "Novel", []),
+    Book("War and Peace", "Leo Tolstoy", 1869, 9788412664812, "Novel", []),
+    Book("Hamlet", "William Shakespeare", 1870, 9780140707342, "Shakespearean tragedy", []),
+    Book("Lolita", "Vladimir Nabokov", 1955, 9783498046460, "Novel", []),
+    Book("The Brothers Karamazov", "Fyodor Dostoevsky", 1879, 9788437606385, "Philosophical novel", []),
+    Book("Alice's Adventures in Wonderland", "Lewis Carroll", 1865, 9780739367384, "Fantasy", [])
+]
+
+for book in books:
+    book.add_copy("Copy 1")
+    print(book.name)
+    print(book.available_copies)
+    book.remove_copy("Copy 1")
+    print(book.available_copies)

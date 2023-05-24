@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c7b6735-5f95-4d08-9377-6560526b2acf" name="Changes" comment="new commit">
-      <change afterPath="$PROJECT_DIR$/Project/BookCopy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/Library.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/Student.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library_system.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project/library_system.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functional Programming/Tools for maximal programming.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functional Programming/aggregator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/Book.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Book.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/BookCopy.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project/BookCopy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/Library.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Library.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/Student.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Student.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
